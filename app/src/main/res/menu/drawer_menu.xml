@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIns="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:checkable="true"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_tasks"
+            android:checkable="true"
+            android:icon="@drawable/ic_tasks"
+            android:title="Tasks" />
+    </group>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile">
+        <menu android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_update_profile"
+                android:checkable="true"
+                android:icon="@drawable/ic_update_profile"
+                android:title="Update Profile" />
+            <item
+                android:id="@+id/nav_change_email"
+                android:checkable="true"
+                android:icon="@drawable/ic_change_email"
+                android:title="Change Email" />
+            <item
+                android:id="@+id/nav_change_password"
+                android:checkable="true"
+                android:icon="@drawable/ic_change_password"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_actions"
+        android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+            <item
+                android:id="@+id/nav_refresh"
+                android:icon="@drawable/ic_refresh"
+                android:title="Refresh" />
+        </menu>
+    </item>
+
+</menu>

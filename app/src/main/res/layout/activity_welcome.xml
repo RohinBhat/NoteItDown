@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_screen"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="87dp"
+        android:fontFamily="@font/calibrib"
+        android:text="Welcome!"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="52sp" />
+
+    <TextView
+        android:id="@+id/txt_great_to_see_you_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_welcome"
+        android:layout_marginStart="41dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/calibri"
+        android:text="Great to see you again"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_dont_have_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_great_to_see_you_again"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/calibri"
+        android:text="Don't have an account?"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_register_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="31dp"
+        android:layout_toEndOf="@+id/txt_dont_have_an_account"
+        android:fontFamily="@font/calibrib"
+        android:text="Register"
+        android:textColor="@color/tertiaryTextColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login_welcome"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txt_great_to_see_you_again"
+        android:layout_alignStart="@id/txt_great_to_see_you_again"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/calibrib"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="30sp" />
+
+</RelativeLayout>

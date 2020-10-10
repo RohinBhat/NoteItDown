@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorActionBar">#2C2C2C</color>
+    <color name="colorStatusBar">#000000</color>
+    <color name="colorAccent">#FF9900</color>
+
+    <color name="primaryColor">#2C2C2C</color>
+    <color name="primaryLightColor">#555555</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="primaryTextColor">#ffffff</color>
+
+    <color name="secondaryColor">#2341a4</color>
+    <color name="secondaryLightColor">#5f6bd6</color>
+    <color name="secondaryDarkColor">#001b74</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="tertiaryDarkColor">#DA9111</color>
+    <color name="tertiaryLightColor">#FBE102</color>
+    <color name="tertiaryTextColor">#F8FF21</color>
+
+    <color name="navigationTextColor">#AAAAAA</color>
+    <color name="navigationCheckedColor">#34445D</color>
+
+    <color name="pink">#CD0995</color>
+    <color name="lightBlue">#0277bd</color>
+    <color name="gray">#2c2c2c</color>
+    <color name="cyan">#0B878C</color>
+    <color name="green">#12A119</color>
+    <color name="brown">#4e342e</color>
+    <color name="red">#c62828</color>
+    <color name="blue">#115AAE</color>
+    <color name="purple">#6a1b9a</color>
+
+    <color name="transparent">@android:color/transparent</color>
+</resources>

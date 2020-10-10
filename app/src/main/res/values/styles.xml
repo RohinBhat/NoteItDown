@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorActionBar</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorActionBar</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorActionBar</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+    </style>
+
+    <style name="NavigationTheme">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+        <item name="android:listDivider">@color/navigationTextColor</item>
+        <item name="android:textColorSecondary">@color/navigationTextColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CheckboxTheme" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">@color/primaryTextColor</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ShowcaseTheme" parent="FancyShowCaseDefaultTitleStyle">
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="fontFamily">@font/calibrib</item>
+    </style>
+
+</resources>

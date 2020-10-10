@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_old_email_change_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/calibri"
+        android:hint="Old Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_password_change_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/calibri"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_new_email_change_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/calibri"
+        android:hint="New Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/primaryTextColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_change_email"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/calibrib"
+        android:text="Change"
+        android:textAllCaps="false"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="30sp" />
+
+</LinearLayout>
