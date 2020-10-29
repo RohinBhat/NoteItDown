@@ -1,7 +1,7 @@
 package com.example.notes;
 
-import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.Gravity;
@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
@@ -93,6 +94,7 @@ public class NotesFragment extends Fragment {
                 });
 
                 holder.view.setOnLongClickListener(new View.OnLongClickListener() {
+                    @RequiresApi(api = Build.VERSION_CODES.M)
                     @Override
                     public boolean onLongClick(View v) {
                         final String docId = noteAdapter.getSnapshots().getSnapshot(position).getId();
@@ -161,6 +163,7 @@ public class NotesFragment extends Fragment {
                 ImageView optionsMenu = holder.view.findViewById(R.id.img_options_menu);
 
                 optionsMenu.setOnClickListener(new View.OnClickListener() {
+                    @RequiresApi(api = Build.VERSION_CODES.M)
                     @Override
                     public void onClick(View v) {
                         final String docId = noteAdapter.getSnapshots().getSnapshot(position).getId();
